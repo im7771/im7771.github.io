@@ -1,0 +1,265 @@
+@font-face {
+    src: url(../fonts/nexa-script-thin.ttf);
+    font-family: Nexa-Script-Thin;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/proxima-nova-regular.ttf);
+    font-family: Proxima-Nova-Regular;
+    font-weight: 400;
+}
+
+/*
+ * General
+ */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #F5F3F5;
+    color: #4C0D00;
+    margin: auto;
+    padding: 0;
+    font-family: Proxima-Nova-Regular, Helvetica, Arial, sans-serif;
+    max-width: 960px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #FF6849;
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+    min-width: 15em;
+    border-radius: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #4C0D00;
+}
+
+.menu-phone {
+    color: #FF6849;
+    font-weight: bold;
+}
+
+.section-title span {
+    box-shadow: 12px 0 0 #043097, -10px 0 0 #043097;
+    background-color: #043097;
+}
+
+.section-body {
+    position: relative;
+    margin-top: -35px;
+    z-index: 1;
+}
+
+.content {
+    padding: 12px;
+    margin: -36px auto 0 auto;
+    max-width: 960px;
+}
+
+.col-title {
+    margin-bottom: 16px;
+}
+
+/*
+ * Typography
+ */
+
+.title {
+    font-family: Nexa-Script-Thin, Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0.5em;
+}
+
+.cover-title {
+    font-family: Nexa-Script-Thin, Helvetica, Arial, sans-serif;
+    font-size: 4em;
+}
+
+.avatar {
+    max-width: 12em;
+    border-radius: 12em;
+}
+
+/*
+ * Header
+ */
+
+/*img {*/
+/*    box-sizing: content-box;*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*    border: 2px solid rgba(255, 255, 255, 0.4);*/
+/*    border-radius: 50%;*/
+/*    width: 100%;*/
+/*    max-width: 256px;*/
+/*}*/
+
+/*.name {*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*.lang {*/
+/*    text-align: right;*/
+/*    margin: 12px;*/
+/*}*/
+
+/*.lang > a {*/
+/*    margin: 0;*/
+/*    min-width: 60px;*/
+/*}*/
+
+/*.lang > span {*/
+/*    font-weight: 900;*/
+/*    font-family: Lato, sans-serif;*/
+/*    text-align: center;*/
+/*    display: inline-block;*/
+/*    min-width: 60px;*/
+/*}*/
+
+/*!**/
+/* * Text*/
+/* *!*/
+
+/*h1, h2, h3, h4, h5 {*/
+/*    margin: 0;*/
+/*    font-weight: 900;*/
+/*}*/
+
+/*h1, h2 {*/
+/*    font-family: Lato, sans-serif;*/
+/*}*/
+
+/*h1 {*/
+/*    font-size: 4em;*/
+/*}*/
+
+/*h2 {*/
+/*    padding: 10px;*/
+/*    font-size: 2.5em;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*h3 {*/
+/*    font-size: 2em;*/
+/*}*/
+
+/*h5 {*/
+/*    font-size: 1em;*/
+/*}*/
+
+/*p {*/
+/*    line-height: 1.5em;*/
+/*    margin: 4px 0;*/
+/*}*/
+
+/*.accent {*/
+/*    color: #ff5f54;*/
+/*}*/
+
+/*!**/
+/* * Footer*/
+/* *!*/
+
+/*footer {*/
+/*    margin-top: -16px;*/
+/*    text-align: center;*/
+/*    padding: 36px;*/
+/*    color: #ddd;*/
+/*    background-color: rgba(5, 5, 5, 0.2);*/
+/*}*/
+
+/*!**/
+/* * Button*/
+/* *!*/
+
+/*@keyframes btn-color {*/
+/*    from {*/
+/*        background-color: transparent;*/
+/*        color: #ff5f54;*/
+/*    }*/
+/*    to {*/
+/*        background-color: #ff5f54;*/
+/*        color: #043097;*/
+/*    }*/
+/*}*/
+
+/*a {*/
+/*    font-family: Lato, serif;*/
+/*    text-transform: uppercase;*/
+/*    text-align: center;*/
+/*    display: inline-block;*/
+/*    min-width: 120px;*/
+/*    color: #ff5f54;*/
+/*    border: 1px solid #ff5f54;*/
+/*    padding: 6px 10px;*/
+/*    margin: 4px 2px;*/
+/*    text-decoration: none;*/
+/*    transition: color 0.4s,  background-color 0.4s;*/
+/*}*/
+
+/*a:hover {*/
+/*    background-color: #ff5f54;*/
+/*    color: #043097;*/
+/*}*/
+
+/*td {*/
+/*    vertical-align: top;*/
+/*}*/
+
+/*!**/
+/* * Media*/
+/* *!*/
+
+/*@media (max-width: 768px) {*/
+/*    .name {*/
+/*        font-size: 2.5em;*/
+/*        padding: 10px;*/
+/*    }*/
+
+/*    .handle {*/
+/*        font-size: 2em;*/
+/*    }*/
+
+/*    .section-title {*/
+/*        text-align: center;*/
+/*        margin: 0;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 420px) {*/
+/*    body {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    h2.section-title {*/
+/*        font-size: 9vw;*/
+/*    }*/
+
+/*    .section-body {*/
+/*        margin-top: -8vw;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1080px) {*/
+/*    .content {*/
+/*        margin-top: 0;*/
+/*    }*/
+/*}*/
