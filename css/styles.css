@@ -27,7 +27,7 @@ body {
     background-color: #F5F3F5;
     color: #4C0D00;
     margin: auto;
-    padding: 0;
+    padding: 0.5em;
     font-family: Proxima-Nova-Regular, Helvetica, Arial, sans-serif;
     max-width: 960px;
 }
@@ -84,7 +84,7 @@ body {
     font-family: Nexa-Script-Thin, Helvetica, Arial, sans-serif;
     font-size: 2.5em;
     font-weight: bold;
-    margin: 0.5em;
+    padding: 1.5em;
 }
 
 .cover-title {
@@ -95,6 +95,64 @@ body {
 .avatar {
     max-width: 12em;
     border-radius: 12em;
+}
+
+.menu {
+    margin-bottom: 1em;
+}
+
+.menu > div {
+    padding: 1em 0 1em 0;
+}
+
+#cover {
+    margin-top: 2em;
+}
+
+.cover-title {
+    /*margin-top: 0.5em;*/
+}
+
+.cover-subtitle {
+    margin-top: 0.5em;
+    margin-bottom: 3.5em;
+}
+
+.cover-image {
+}
+
+.cover-image img {
+    max-width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.contact-item div {
+    font-size: 1.2em;
+    padding: 0.3em;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #FF6849;
+}
+
+.service {
+    padding: 1em;
+}
+
+.service img {
+    border-radius: 0.5em;
+    max-width: 100%;
+}
+
+.service-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    padding: 2em;
 }
 
 /*
